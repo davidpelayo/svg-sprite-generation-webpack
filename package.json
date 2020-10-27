@@ -1,0 +1,16 @@
+{
+  "name": "svg-sprite-generation-webpack",
+  "version": "1.0.0",
+  "description": "SVG sprite generation with Webpack and svg-sprite-loader",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "David Pelayo",
+  "license": "MIT",
+  "devDependencies": {
+    "svg-sprite-loader": "^5.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.1.0"
+  }
+}
